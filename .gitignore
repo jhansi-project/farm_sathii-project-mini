@@ -1,0 +1,61 @@
+# Python / Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment variables
+.env
+!.env.example
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Media & Uploads
+storage/uploads/*
+!storage/uploads/.gitkeep
+
+# Testing & Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# OS Specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ML datasets / large training data
+ml/datasets/
+
+# Training datasets and archives
+training/**/*.csv
+training/**/*.zip
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Backend uploaded media
+backend/storage/uploads/*
+!backend/storage/uploads/.gitkeep
+
+# Duplicate training model
+training/farmsathi_crop_recommendation_rf.pkl

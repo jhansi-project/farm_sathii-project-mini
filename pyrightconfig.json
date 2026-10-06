@@ -1,0 +1,19 @@
+{
+  "include": [
+    "backend",
+    "ml"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    "backend/venv"
+  ],
+  "venvPath": "backend",
+  "venv": "venv",
+  "extraPaths": [
+    "backend",
+    "ml",
+    "backend/venv/Lib/site-packages"
+  ],
+  "reportMissingImports": "none"
+}
